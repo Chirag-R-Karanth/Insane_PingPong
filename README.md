@@ -35,7 +35,7 @@ Make sure you have the following installed:
 ### Install on Fedora
 
 ```bash
-git clone https://github.com/Chirag-R-Karanth/Insane_PingPong.git<br>
+git clone https://github.com/Chirag-R-Karanth/Insane_PingPong.git
 cd Insane_PingPong
 ```
 
