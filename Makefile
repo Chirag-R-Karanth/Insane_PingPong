@@ -1,4 +1,3 @@
-``make
 # Variables
 CXX = g++
 LIBS = -lsfml-graphics -lsfml-window -lsfml-system
@@ -10,7 +9,7 @@ all:
 
 # A command to install dependencies on Fedora
 install_deps:
-	sudo dnf install SFML-devel g++
+	sudo dnf install SFML-devel gcc-c++
 
 # A command to clean up the binary
 clean:
