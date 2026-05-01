@@ -18,9 +18,9 @@ run:```bash
   make
   ```
 Run the GameExecute the generated binary:
-```Bash
+```bash
 ./pong```
-Clean Build FilesTo remove the compiled binary and start fresh:```Bashmake clean``` 
+Clean Build FilesTo remove the compiled binary and start fresh:```bashmake clean``` 
 ###Project Structuremain.cpp — 
 * The entry point and main game loop.
 * Ball.hpp — Logic for ball movement, bouncing, and resets.
