@@ -13,9 +13,18 @@ To build this project on Fedora, you need the SFML development libraries and a C
 sudo dnf install SFML-devel gcc-c++
 ```
 
-To Compile the GameIn your project directory, 
-run:Bash
+To Compile the GameIn your project directory,<br>
+run:```bash
   make
-Run the GameExecute the generated binary:Bash./pong
-Clean Build FilesTo remove the compiled binary and start fresh:Bashmake clean
-🎮 ControlsActionKey (Player 1 - Left)Key (Player 2 - Right)Move UpWUp ArrowMove DownSDown ArrowExit GameEscapeEscape📂 Project Structuremain.cpp — The entry point and main game loop.Ball.hpp — Logic for ball movement, bouncing, and resets.Paddle.hpp — Logic for player movement and screen clamping.ScoreBoard.hpp — Handles score tracking and watermark text rendering.Makefile — Automation for compiling on Fedora..gitignore — Prevents binaries and system junk from being tracked by Git.📜 LicenseThis project is open-source and available under the MIT License.
+  ```
+Run the GameExecute the generated binary:
+```Bash
+./pong```
+Clean Build FilesTo remove the compiled binary and start fresh:```Bashmake clean``` 
+###Project Structuremain.cpp — 
+* The entry point and main game loop.
+* Ball.hpp — Logic for ball movement, bouncing, and resets.
+* Paddle.hpp — Logic for player movement and screen clamping.
+* ScoreBoard.hpp — Handles score tracking and watermark text rendering.
+* Makefile — Automation for compiling on Fedora.
+* .gitignore — Prevents binaries and system junk from being tracked by Git.
