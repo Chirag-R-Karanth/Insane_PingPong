@@ -1,0 +1,17 @@
+``make
+# Variables
+CXX = g++
+LIBS = -lsfml-graphics -lsfml-window -lsfml-system
+TARGET = pong
+
+# The default command when you type 'make'
+all:
+	$(CXX) main.cpp -o $(TARGET) $(LIBS)
+
+# A command to install dependencies on Fedora
+install_deps:
+	sudo dnf install SFML-devel g++
+
+# A command to clean up the binary
+clean:
+	rm -f $(TARGET)
