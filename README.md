@@ -5,7 +5,7 @@ The game features dynamic difficulty, responsive scaling to your screen, and a c
 
 ---
 
-## 🚀 Features
+## Features
 
 * Modular object-oriented design
 * Increasing ball velocity over time (dynamic difficulty)
@@ -15,7 +15,7 @@ The game features dynamic difficulty, responsive scaling to your screen, and a c
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Action    | Key   |
 | --------- | ----- |
@@ -25,7 +25,7 @@ The game features dynamic difficulty, responsive scaling to your screen, and a c
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 Make sure you have the following installed:
 
@@ -62,7 +62,7 @@ make clean
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 * `main.cpp` — Entry point and main game loop
 * `Ball.hpp` — Ball movement, collision, and reset logic
@@ -73,7 +73,7 @@ make clean
 
 ---
 
-## ⚙️ Notes
+##  Notes
 
 * The game automatically adapts to your screen resolution
 * Ball speed increases over time to make gameplay progressively harder
@@ -81,7 +81,7 @@ make clean
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements(No promises)
 
 * Sound effects and background music
 * AI-controlled opponent
@@ -89,7 +89,3 @@ make clean
 * Power-ups and gameplay variations
 
 ---
-
-## 🧾 License
-
-This project is open-source and free to use for learning purposes.
