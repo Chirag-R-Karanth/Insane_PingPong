@@ -35,12 +35,17 @@ Make sure you have the following installed:
 ### Install on Fedora
 
 ```bash
+git clone https://github.com/Chirag-R-Karanth/Insane_PingPong.git<br>
+cd Insane_PingPong
+```
+
+```bash
 sudo dnf install SFML-devel gcc-c++
 ```
 
 ---
 
-## 🧱 Build Instructions
+## Build Instructions
 
 ### Compile
 
