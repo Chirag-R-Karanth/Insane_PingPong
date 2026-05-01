@@ -1,30 +1,95 @@
-# Insane_PingPong
-This is a basic ping pong written in cpp(because of my masochism) with a clock,score and variable increasing velocity<br>
-<br>
-A high-performance, modular Pong game built with **C++** and **SFML**. This version features a responsive design that automatically scales to your desktop resolution, a large watermark-style scorecard, and a clean object-oriented architecture.
+# Insane Ping Pong
+
+A high-performance Pong clone built using **C++** and **SFML**.
+The game features dynamic difficulty, responsive scaling to your screen, and a clean modular architecture.
+
+---
 
 ## 🚀 Features
-*   **Modular Architecture**: Logic is separated into distinct classes for better maintainability.
+
+* Modular object-oriented design
+* Increasing ball velocity over time (dynamic difficulty)
+* Responsive scaling to match desktop resolution
+* Score tracking with large watermark-style display
+* Smooth paddle controls and collision handling
+
+---
+
+## 🎮 Controls
+
+| Action    | Key   |
+| --------- | ----- |
+| Move Up   | W / ↑ |
+| Move Down | S / ↓ |
+| Exit Game | Esc   |
+
+---
 
 ## 🛠️ Requirements
 
-To build this project on Fedora, you need the SFML development libraries and a C++ compiler. Install them using the following command:
+Make sure you have the following installed:
+
+* C++ compiler (g++)
+* SFML development libraries
+
+### Install on Fedora
+
 ```bash
 sudo dnf install SFML-devel gcc-c++
 ```
 
-To Compile the GameIn your project directory,<br>
-run:```bash
-  make
-  ```
-Run the GameExecute the generated binary:
+---
+
+## 🧱 Build Instructions
+
+### Compile
+
 ```bash
-./pong```
-Clean Build FilesTo remove the compiled binary and start fresh:```bashmake clean``` 
-###Project Structuremain.cpp — 
-* The entry point and main game loop.
-* Ball.hpp — Logic for ball movement, bouncing, and resets.
-* Paddle.hpp — Logic for player movement and screen clamping.
-* ScoreBoard.hpp — Handles score tracking and watermark text rendering.
-* Makefile — Automation for compiling on Fedora.
-* .gitignore — Prevents binaries and system junk from being tracked by Git.
+make
+```
+
+### Run
+
+```bash
+./pong
+```
+
+### Clean Build Files
+
+```bash
+make clean
+```
+
+---
+
+## 📁 Project Structure
+
+* `main.cpp` — Entry point and main game loop
+* `Ball.hpp` — Ball movement, collision, and reset logic
+* `Paddle.hpp` — Player input and boundary constraints
+* `ScoreBoard.hpp` — Score tracking and rendering
+* `Makefile` — Build automation
+* `.gitignore` — Ignores binaries and system files
+
+---
+
+## ⚙️ Notes
+
+* The game automatically adapts to your screen resolution
+* Ball speed increases over time to make gameplay progressively harder
+* Designed with separation of concerns for easy extension and maintenance
+
+---
+
+## 📌 Future Improvements
+
+* Sound effects and background music
+* AI-controlled opponent
+* Menu system and pause functionality
+* Power-ups and gameplay variations
+
+---
+
+## 🧾 License
+
+This project is open-source and free to use for learning purposes.
